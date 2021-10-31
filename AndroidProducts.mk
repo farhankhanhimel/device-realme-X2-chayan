@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_X2.mk
+    $(LOCAL_DIR)/cherish_X2.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    aosp_X2-eng \
-    aosp_X2-user \
-    aosp_X2-userdebug
+    cherish_X2-eng \
+    cherish_X2-user \
+    cherish_X2-userdebug

@@ -9,6 +9,8 @@ $(call inherit-product, device/realme/X2/device.mk)
 # Inherit some common Cherish stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
+CHERISH_BUILD_TYPE := OFFICIAL
+
 WITH_GMS := true
 
 TARGET_BOOT_ANIMATION_RES := 1080

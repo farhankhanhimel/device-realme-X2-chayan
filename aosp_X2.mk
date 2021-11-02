@@ -7,7 +7,7 @@
 $(call inherit-product, device/realme/X2/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/superior/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 

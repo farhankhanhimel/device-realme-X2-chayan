@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_X2.mk
+    $(LOCAL_DIR)/superior_X2.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    octavi_X2-eng \
-    octavi_X2-user \
-    octavi_X2-userdebug
+    superior_X2-eng \
+    superior_X2-user \
+    superior_X2-userdebug

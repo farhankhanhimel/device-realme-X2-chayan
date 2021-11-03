@@ -6,24 +6,24 @@
 
 $(call inherit-product, device/realme/X2/device.mk)
 
-# Inherit some common Cherish stuff.
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+# Inherit some common Fluid stuff.
+$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
 
-CHERISH_BUILD_TYPE := OFFICIAL
+FLUID_BUILD_TYPE := UNOFFICIAL
 
 WITH_GMS := true
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# CherishOS Official
-CHERISH_BUILD_TYPE := OFFICIAL
+# Fluid os Unfficial
+FLUID_BUILD_TYPE := UNOFFICIAL
 PRODUCT_GENERIC_PROPERTIES += \
-    ro.cherish.maintainer=CHAITANYA
+    ro.fluid.maintainer=Farhan
 
 
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := cherish_X2
+PRODUCT_NAME := fluid_X2
 PRODUCT_DEVICE := X2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2

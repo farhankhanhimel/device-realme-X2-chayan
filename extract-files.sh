@@ -14,9 +14,9 @@ VENDOR=realme
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
-OCTAVI_ROOT="${MY_DIR}"/../../..
+FLUID_ROOT="${MY_DIR}"/../../..
 
-HELPER="${CHERISH_ROOT}/vendor/cherish/build/tools/extract_utils.sh"
+HELPER="${FLUID_ROOT}/vendor/fluid/build/tools/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
@@ -50,7 +50,7 @@ if [ -z "${SRC}" ]; then
 fi
 
 # Initialize the helper
-setup_vendor "${DEVICE}" "${VENDOR}" "${CHERISH_ROOT}" true "${CLEAN_VENDOR}"
+setup_vendor "${DEVICE}" "${VENDOR}" "${FLUID_ROOT}" true "${CLEAN_VENDOR}"
 
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
         "${KANG}" --section "${SECTION}"

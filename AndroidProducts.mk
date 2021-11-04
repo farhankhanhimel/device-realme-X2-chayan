@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_X2.mk
+    $(LOCAL_DIR)/fluid_X2.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    cherish_X2-eng \
-    cherish_X2-user \
-    cherish_X2-userdebug
+    fluid_X2-eng \
+    fluid_X2-user \
+    fluid_X2-userdebug

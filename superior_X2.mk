@@ -7,7 +7,7 @@
 $(call inherit-product, device/realme/X2/device.mk)
 
 # Inherit some common Octavi stuff.
-$(call inherit-product, vendor/superior/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
 TARGET_GAPPS_ARCH := arm64
 WITH_GAPPS := true
